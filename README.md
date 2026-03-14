@@ -10,15 +10,15 @@ A journal-style weight tracker for mom and baby.
 
 ### The Story
 
-Zongzi came into the world on a quiet autumn morning in 2025 — a tiny, warm little dumpling placed into his mother's arms.
+"Why does every baby app only track the baby's weight? What about the mom?"
 
-In those early days, EE would step onto the bathroom scale twice each morning: once cradling Zongzi against her chest, and once standing alone. The difference between the two numbers was her son's weight — a small subtraction that somehow held the entire weight of love.
+That was EE's complaint one evening. She'd just finished weighing Zongzi — step on the scale holding him, step on again alone, subtract — the same little ritual every few days since he was born in the autumn of 2025. She had the baby's growth chart from three different apps. None of them cared about her number.
 
-She wanted to watch Zongzi grow, ounce by ounce. She also wanted to take care of herself, because being a good mom starts with being well. But the notebook on the nightstand kept getting buried under burp cloths and pacifiers, and the numbers in her phone's notes app were a mess of typos and forgotten dates.
+She wanted to watch Zongzi grow, ounce by ounce. But she also wanted to track her own postpartum recovery, because being a good mom starts with being well. Every parenting app on her phone had beautiful baby growth charts and zero space for the person doing all the heavy lifting.
 
-So this app was made for her — styled like the journal she never had time to keep. Warm paper, washi tape, handwritten numbers. A quiet little place to write down two weights and let the math do the rest.
+So this app was made for her — one that records both weights in a single flow, because mom matters too. Styled like the journal she never had time to keep: warm paper, washi tape, handwritten numbers. A quiet little place to write down two weights and let the math do the rest.
 
-Every entry is a tiny love letter: *Today you weighed 6.2 kg. You're growing so well, little Zongzi.*
+Every entry is a tiny love letter: *Today you weighed 6.2 kg, little Zongzi. And mom is doing great too.*
 
 ### Features
 
@@ -60,15 +60,15 @@ You'll need to set your own Development Team in Signing & Capabilities on first 
 
 ### 故事
 
-2025 年秋天一个安静的早晨，粽子来到了这个世界——一个小小的、暖暖的小团子，被放进了妈妈的怀里。
+"为什么每个母婴 App 都只记宝宝的体重？妈妈的就不管了？"
 
-那些日子里，EE 每天早上都会站上体重秤两次：一次抱着粽子，一次自己站上去。两个数字相减，就是儿子的体重——一道简单的减法，却好像承载了全部的爱。
+这是 EE 某天晚上的吐槽。她刚称完粽子的体重——抱着儿子站上秤，再自己站上去，两个数字一减——从 2025 年秋天粽子出生起，每隔几天都重复这个小仪式。手机里三个母婴 App 都有漂亮的宝宝成长曲线，没有一个在意妈妈的那个数字。
 
-她想看着粽子一点一点长大，也想好好照顾自己，因为当一个好妈妈，要先让自己好好的。可是床头的小本子总被口水巾和奶嘴埋住，手机备忘录里的数字也乱成了一团，日期记错、小数点打歪。
+她想看着粽子一点一点长大，也想记录自己产后恢复的过程，因为当一个好妈妈，要先让自己好好的。可是每个育儿 App 都把全部心思放在了宝宝身上，对那个每天抱着宝宝上秤的人视而不见。
 
-所以就有了这个 App——做成她一直没时间写的那本手账的样子。暖暖的纸张，和纸胶带，手写的数字。一个安静的小角落，写下两个体重，剩下的交给计算。
+所以就有了这个 App——一次称重，同时记录两个人的体重，因为妈妈也很重要。做成她一直没时间写的那本手账的样子：暖暖的纸张，和纸胶带，手写的数字。一个安静的小角落，写下两个体重，剩下的交给计算。
 
-每一条记录都是一封小小的情书：*今天你 6.2 公斤了，长得真好呀，小粽子。*
+每一条记录都是一封小小的情书：*今天你 6.2 公斤了，小粽子。妈妈也很好哦。*
 
 ### 功能
 
