@@ -2,7 +2,7 @@ import SwiftUI
 import Charts
 import SwiftData
 
-// MARK: - WHO Data (Girls 0–24 months weight-for-age)
+// MARK: - WHO Data (Boys 0–24 months weight-for-age)
 struct WHODataPoint: Identifiable {
     let id = UUID()
     let month: Double
@@ -14,33 +14,33 @@ struct WHODataPoint: Identifiable {
 }
 
 enum WHOData {
-    // Source: WHO Child Growth Standards, girls weight-for-age percentiles (0-24 months)
-    static let girlsWeightForAge: [WHODataPoint] = [
-        WHODataPoint(month: 0,  p3: 2.4, p15: 2.8, p50: 3.2, p85: 3.7, p97: 4.2),
-        WHODataPoint(month: 1,  p3: 3.2, p15: 3.6, p50: 4.2, p85: 4.8, p97: 5.4),
-        WHODataPoint(month: 2,  p3: 4.0, p15: 4.5, p50: 5.1, p85: 5.9, p97: 6.5),
-        WHODataPoint(month: 3,  p3: 4.6, p15: 5.1, p50: 5.8, p85: 6.7, p97: 7.4),
-        WHODataPoint(month: 4,  p3: 5.1, p15: 5.6, p50: 6.4, p85: 7.3, p97: 8.1),
-        WHODataPoint(month: 5,  p3: 5.5, p15: 6.1, p50: 6.9, p85: 7.8, p97: 8.7),
-        WHODataPoint(month: 6,  p3: 5.8, p15: 6.4, p50: 7.3, p85: 8.3, p97: 9.2),
-        WHODataPoint(month: 7,  p3: 6.1, p15: 6.7, p50: 7.6, p85: 8.7, p97: 9.6),
-        WHODataPoint(month: 8,  p3: 6.3, p15: 7.0, p50: 7.9, p85: 9.0, p97: 10.0),
-        WHODataPoint(month: 9,  p3: 6.6, p15: 7.3, p50: 8.2, p85: 9.3, p97: 10.4),
-        WHODataPoint(month: 10, p3: 6.8, p15: 7.5, p50: 8.5, p85: 9.6, p97: 10.7),
-        WHODataPoint(month: 11, p3: 7.0, p15: 7.7, p50: 8.7, p85: 9.9, p97: 11.0),
-        WHODataPoint(month: 12, p3: 7.1, p15: 7.9, p50: 8.9, p85: 10.2, p97: 11.3),
-        WHODataPoint(month: 13, p3: 7.3, p15: 8.1, p50: 9.2, p85: 10.4, p97: 11.6),
-        WHODataPoint(month: 14, p3: 7.5, p15: 8.3, p50: 9.4, p85: 10.7, p97: 11.9),
-        WHODataPoint(month: 15, p3: 7.7, p15: 8.5, p50: 9.6, p85: 10.9, p97: 12.2),
-        WHODataPoint(month: 16, p3: 7.8, p15: 8.7, p50: 9.8, p85: 11.2, p97: 12.5),
-        WHODataPoint(month: 17, p3: 8.0, p15: 8.8, p50: 10.0, p85: 11.4, p97: 12.7),
-        WHODataPoint(month: 18, p3: 8.2, p15: 9.0, p50: 10.2, p85: 11.6, p97: 13.0),
-        WHODataPoint(month: 19, p3: 8.3, p15: 9.2, p50: 10.4, p85: 11.9, p97: 13.3),
-        WHODataPoint(month: 20, p3: 8.5, p15: 9.4, p50: 10.6, p85: 12.1, p97: 13.5),
-        WHODataPoint(month: 21, p3: 8.7, p15: 9.6, p50: 10.9, p85: 12.4, p97: 13.8),
-        WHODataPoint(month: 22, p3: 8.8, p15: 9.8, p50: 11.1, p85: 12.6, p97: 14.1),
-        WHODataPoint(month: 23, p3: 9.0, p15: 9.9, p50: 11.3, p85: 12.8, p97: 14.3),
-        WHODataPoint(month: 24, p3: 9.2, p15: 10.1, p50: 11.5, p85: 13.1, p97: 14.6),
+    // Source: WHO Child Growth Standards, boys weight-for-age percentiles (0-24 months)
+    static let boysWeightForAge: [WHODataPoint] = [
+        WHODataPoint(month: 0,  p3: 2.5, p15: 2.9, p50: 3.3, p85: 3.9, p97: 4.4),
+        WHODataPoint(month: 1,  p3: 3.4, p15: 3.9, p50: 4.5, p85: 5.1, p97: 5.8),
+        WHODataPoint(month: 2,  p3: 4.3, p15: 4.9, p50: 5.6, p85: 6.3, p97: 7.1),
+        WHODataPoint(month: 3,  p3: 5.0, p15: 5.7, p50: 6.4, p85: 7.2, p97: 8.0),
+        WHODataPoint(month: 4,  p3: 5.6, p15: 6.2, p50: 7.0, p85: 7.8, p97: 8.7),
+        WHODataPoint(month: 5,  p3: 6.0, p15: 6.7, p50: 7.5, p85: 8.4, p97: 9.3),
+        WHODataPoint(month: 6,  p3: 6.4, p15: 7.1, p50: 7.9, p85: 8.8, p97: 9.8),
+        WHODataPoint(month: 7,  p3: 6.7, p15: 7.4, p50: 8.3, p85: 9.2, p97: 10.3),
+        WHODataPoint(month: 8,  p3: 6.9, p15: 7.7, p50: 8.6, p85: 9.6, p97: 10.7),
+        WHODataPoint(month: 9,  p3: 7.1, p15: 7.9, p50: 8.9, p85: 9.9, p97: 11.0),
+        WHODataPoint(month: 10, p3: 7.4, p15: 8.2, p50: 9.2, p85: 10.2, p97: 11.4),
+        WHODataPoint(month: 11, p3: 7.6, p15: 8.4, p50: 9.4, p85: 10.5, p97: 11.7),
+        WHODataPoint(month: 12, p3: 7.7, p15: 8.6, p50: 9.6, p85: 10.8, p97: 12.0),
+        WHODataPoint(month: 13, p3: 7.9, p15: 8.8, p50: 9.9, p85: 11.0, p97: 12.3),
+        WHODataPoint(month: 14, p3: 8.1, p15: 9.0, p50: 10.1, p85: 11.3, p97: 12.6),
+        WHODataPoint(month: 15, p3: 8.3, p15: 9.2, p50: 10.3, p85: 11.5, p97: 12.8),
+        WHODataPoint(month: 16, p3: 8.4, p15: 9.4, p50: 10.5, p85: 11.7, p97: 13.1),
+        WHODataPoint(month: 17, p3: 8.6, p15: 9.6, p50: 10.7, p85: 12.0, p97: 13.4),
+        WHODataPoint(month: 18, p3: 8.8, p15: 9.8, p50: 10.9, p85: 12.2, p97: 13.7),
+        WHODataPoint(month: 19, p3: 8.9, p15: 10.0, p50: 11.1, p85: 12.5, p97: 13.9),
+        WHODataPoint(month: 20, p3: 9.1, p15: 10.1, p50: 11.3, p85: 12.7, p97: 14.2),
+        WHODataPoint(month: 21, p3: 9.2, p15: 10.3, p50: 11.5, p85: 12.9, p97: 14.5),
+        WHODataPoint(month: 22, p3: 9.4, p15: 10.5, p50: 11.8, p85: 13.2, p97: 14.7),
+        WHODataPoint(month: 23, p3: 9.5, p15: 10.7, p50: 12.0, p85: 13.4, p97: 15.0),
+        WHODataPoint(month: 24, p3: 9.7, p15: 10.8, p50: 12.2, p85: 13.6, p97: 15.3),
     ]
 }
 
@@ -85,7 +85,7 @@ struct BabyChartView: View {
         JournalCard(washiColor: JournalTheme.washiLavender, rotation: .degrees(0.3)) {
             Chart {
                 // P3-P97 band (lightest)
-                ForEach(WHOData.girlsWeightForAge) { point in
+                ForEach(WHOData.boysWeightForAge) { point in
                     AreaMark(
                         x: .value("月龄", point.month),
                         yStart: .value("P3", point.p3),
@@ -95,7 +95,7 @@ struct BabyChartView: View {
                 }
 
                 // P15-P85 band
-                ForEach(WHOData.girlsWeightForAge) { point in
+                ForEach(WHOData.boysWeightForAge) { point in
                     AreaMark(
                         x: .value("月龄", point.month),
                         yStart: .value("P15", point.p15),
@@ -105,7 +105,7 @@ struct BabyChartView: View {
                 }
 
                 // P50 line
-                ForEach(WHOData.girlsWeightForAge) { point in
+                ForEach(WHOData.boysWeightForAge) { point in
                     LineMark(
                         x: .value("月龄", point.month),
                         y: .value("P50", point.p50)

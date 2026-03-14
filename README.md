@@ -10,9 +10,9 @@ A journal-style weight tracker for mom and baby.
 
 ### The Story
 
-Zongzi was born on Valentine's Day, 2025 — a tiny, warm little dumpling placed into her mother's arms.
+Zongzi came into the world on a quiet autumn morning in 2025 — a tiny, warm little dumpling placed into his mother's arms.
 
-In those early days, EE would step onto the bathroom scale twice each morning: once cradling Zongzi against her chest, and once standing alone. The difference between the two numbers was her daughter's weight — a small subtraction that somehow held the entire weight of love.
+In those early days, EE would step onto the bathroom scale twice each morning: once cradling Zongzi against her chest, and once standing alone. The difference between the two numbers was her son's weight — a small subtraction that somehow held the entire weight of love.
 
 She wanted to watch Zongzi grow, ounce by ounce. She also wanted to take care of herself, because being a good mom starts with being well. But the notebook on the nightstand kept getting buried under burp cloths and pacifiers, and the numbers in her phone's notes app were a mess of typos and forgotten dates.
 
@@ -23,7 +23,7 @@ Every entry is a tiny love letter: *Today you weighed 6.2 kg. You're growing so 
 ### Features
 
 - **Weight Recording** — Weigh yourself holding the baby, then weigh yourself alone. The app calculates baby's weight automatically.
-- **Growth Chart** — WHO girls weight-for-age percentile bands (P3-P97) with your baby's actual data overlaid.
+- **Growth Chart** — WHO boys weight-for-age percentile bands (P3–P97) with your baby's actual data overlaid.
 - **Weight Trend** — Mom's postpartum weight trend line chart.
 - **History Diary** — Timeline view of all records with long-press to delete.
 
@@ -60,9 +60,9 @@ You'll need to set your own Development Team in Signing & Capabilities on first 
 
 ### 故事
 
-粽子出生在 2025 年的情人节——一个小小的、暖暖的小团子，被放进了妈妈的怀里。
+2025 年秋天一个安静的早晨，粽子来到了这个世界——一个小小的、暖暖的小团子，被放进了妈妈的怀里。
 
-那些日子里，EE 每天早上都会站上体重秤两次：一次抱着粽子，一次自己站上去。两个数字相减，就是女儿的体重——一道简单的减法，却好像承载了全部的爱。
+那些日子里，EE 每天早上都会站上体重秤两次：一次抱着粽子，一次自己站上去。两个数字相减，就是儿子的体重——一道简单的减法，却好像承载了全部的爱。
 
 她想看着粽子一点一点长大，也想好好照顾自己，因为当一个好妈妈，要先让自己好好的。可是床头的小本子总被口水巾和奶嘴埋住，手机备忘录里的数字也乱成了一团，日期记错、小数点打歪。
 
@@ -73,7 +73,7 @@ You'll need to set your own Development Team in Signing & Capabilities on first 
 ### 功能
 
 - **记录体重** — 抱着宝宝称一次，自己称一次，自动算出宝宝体重
-- **成长曲线** — WHO 女婴体重百分位图（P3-P97），直观看宝宝发育
+- **成长曲线** — WHO 男婴体重百分位图（P3–P97），直观看宝宝发育
 - **体重趋势** — 妈妈产后体重变化折线图
 - **历史日记** — 时间线浏览所有记录，长按可删除
 

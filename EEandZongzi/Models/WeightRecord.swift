@@ -19,8 +19,8 @@ final class WeightRecord {
     static let babyBirthday: Date = {
         var components = DateComponents()
         components.year = 2025
-        components.month = 2
-        components.day = 14
+        components.month = 9
+        components.day = 24
         return Calendar.current.date(from: components) ?? .now
     }()
 

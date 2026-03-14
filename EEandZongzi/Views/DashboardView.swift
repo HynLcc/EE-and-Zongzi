@@ -103,7 +103,7 @@ struct DashboardView: View {
 
             Chart {
                 // P3-P97 band
-                ForEach(WHOData.girlsWeightForAge) { point in
+                ForEach(WHOData.boysWeightForAge) { point in
                     AreaMark(
                         x: .value("月龄", point.month),
                         yStart: .value("P3", point.p3),
@@ -113,7 +113,7 @@ struct DashboardView: View {
                 }
 
                 // P15-P85 band
-                ForEach(WHOData.girlsWeightForAge) { point in
+                ForEach(WHOData.boysWeightForAge) { point in
                     AreaMark(
                         x: .value("月龄", point.month),
                         yStart: .value("P15", point.p15),
@@ -123,7 +123,7 @@ struct DashboardView: View {
                 }
 
                 // P50 dashed line
-                ForEach(WHOData.girlsWeightForAge) { point in
+                ForEach(WHOData.boysWeightForAge) { point in
                     LineMark(
                         x: .value("月龄", point.month),
                         y: .value("P50", point.p50)
